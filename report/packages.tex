@@ -1,0 +1,32 @@
+\usepackage{titling}
+\linespread{1.05}
+\usepackage{times} 
+\usepackage[hmarginratio=1:1,top=25mm,left=20mm, columnsep=20pt]{geometry} 
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} 
+\usepackage{booktabs}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep}
+\usepackage{fancyhdr} % Headers and footers
+\usepackage{titling} % Customizing the title section
+\usepackage{hyperref} % For hyperlinks in the PDF
+\usepackage{array} %permite o uso de tabelas
+\usepackage{longtable} %permite o uso de tabelas personalizadas
+\usepackage{rotating} %permite rotacionar imagens
+\graphicspath{{./images/} }
+\usepackage{subfiles} % Best loaded last in the preamble
+\usepackage[language=english]{biblatex}
+\addbibresource{references.bib} %Imports bibliography file
+\usepackage{csquotes}
+\usepackage[font={footnotesize}, labelfont=normalfont, textfont=up,]{caption}
+\usepackage{setspace}
+
+\captionsetup[figure]{labelfont={bf},name={Fig.},labelsep=period}
+\captionsetup[table]{labelfont={bf},name={Table},labelsep=period}
+
+
+\usepackage{abstract} % Allows abstract customization
+\usepackage{titlesec} % Allows customization of titles
+\titleformat{\section}[block]{\large\centering}{\thesection}{1em}{\MakeUppercase}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+\nocite{*}

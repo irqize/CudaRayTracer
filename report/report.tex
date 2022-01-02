@@ -1,0 +1,29 @@
+\documentclass[article,
+12pt, 
+a4paper,  
+%twoside,
+english]{article}
+\usepackage[english]{babel}
+\input{packages}
+\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+\renewcommand\maketitlehookd{\vfill\null}
+
+\title{Performance comparison between CPU and GPU based ray tracer} % Article title
+\author{%
+\textsc{Przemysław Kowalewski}
+\normalsize \\ \href{mailto:pkow@kth.se}{pkow@kth.se} \\
+\normalsize Code: \href{https://github.com/irqize/CudaRayTracer}{github.com/irqize/CudaRayTracer} \\
+\normalsize Expected grade: A
+}
+\date{2022-01-02}
+
+\begin{document}
+\begin{titlingpage}
+\maketitle
+\end{titlingpage}
+\onehalfspacing
+\input{sections/main}
+\singlespacing
+\vspace{1cm}
+\printbibliography
+\end{document}
